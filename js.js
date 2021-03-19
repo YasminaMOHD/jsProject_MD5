@@ -54,7 +54,7 @@ function playGame() {
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
             }else{
-                result.textContent = 'لقد فزت ، مباااااااااااااارك أخوي ! '
+                result.textContent = 'لقد فزت ، مباااااااااااااارك أخوي ! ';
                 playerScore++;
                 playerScoreBoard.textContent = playerScore;
             }
@@ -65,7 +65,7 @@ function playGame() {
                 computerScore++;
                 computerScoreBoard.textContent = computerScore;
             }else{
-                result.textContent = 'Player Won';
+                result.textContent = 'لقد فزت ، مباااااااااااااارك أخوي ! ';
                 playerScore++;
                 playerScoreBoard.textContent = playerScore;
             }
